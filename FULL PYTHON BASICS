@@ -1,0 +1,19 @@
+HI HELLO THERE! THANKS FOR CHOOSING THIS HUB AND I WHOLE HEARTLY WELCOME YOU (NEW BEGINNER) TO THIS TECHIE HUB.
+#PYTHON SYNTAX:
+print("welcome") #this is the final printing statement. no matter whatever you write final have to be excuted using this print statement.
+if 5>2: # condition end with colon, in java almost each statement ends with semicolon don't be confused.
+    print("yes it is")# wonder why is there a gap before??
+    #that's because python uses indentation rather then flower brackets{} to indicate a block of code.AS indentation is used here the print statement comes under the condition.
+else:
+    print("nope")#if the if statement isn't true python excutes the else statement.Remeber always end conditions with colon or else python gives error.
+        #EXCERCISE:
+#WHAT IS PYTHON INDENTATION?
+#PYTHON INDENTATION REFERS TO THE SPACES OR GAP AT THE BEGINNING OF A CODE.REMEMBER WITHOUT INDENTATION PYTHON GIVES ERROR. IT IS USED TO INDICATE A BLOCK OF CODE, IF THERE ARE MANY STATEMENTS UNDER THE SAME BLOCK THEN SAME NO.OF SPACES HAVE TO BE THERE AT THE BEGINNING OF EACH LINE.
+#EXAMPLES:
+if 6%2==0:
+    print("It is factor of 6")
+elif 6%2>0:
+    print("It is not a factor")
+else:
+    print("not a number")
+       #you can change the condition if according to your wish to execute a want statement. for suppose if u want else statement to be printed change this 6%2 anything that doesn't involve number.   
