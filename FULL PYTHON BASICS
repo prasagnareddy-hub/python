@@ -17,3 +17,44 @@ elif 6%2>0:
 else:
     print("not a number")
        #you can change the condition if according to your wish to execute a want statement. for suppose if u want else statement to be printed change this 6%2 anything that doesn't involve number.   
+Program excercises:
+#Fibannoic series:
+n=0
+m=1
+N=int(input("No.of terms you want:"))
+print(n,",",m,end="")
+i=0
+while i<=N:
+    s=n+m
+    print(",",s,end="")
+    n=m
+    m=s
+    i+=1
+#factors of N
+N=int(input("'\n'Enter a number to find its factors:"))
+i=1
+while i<=N/2:
+    if(N%i==0):
+        print(i,"is a factor of given number")
+    i+=1
+#Digits of a given number:
+N=23456
+r=N%10
+n=N//10
+r2=n%10
+N=n//10
+r3=N%10
+n=N//10
+r4=n%10
+N=n//10
+r5=N%10
+n=N//10
+print(r,r2,r3,r4,r5)
+print(*[r,r2,r3,r4,r5][::-1])
+#whether the given number is prime or not:
+n=int(input("check whether the number the is prime:\t"))
+if n%2==0:
+    print("yes given number is prime",n)
+else:
+    print("oops! not a prime number")
+THE ABOVE are simple basic problem to prepare your mind to understand logic and sharpen its understanding.    
