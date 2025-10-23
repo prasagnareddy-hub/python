@@ -1,4 +1,6 @@
 HI HELLO THERE! THANKS FOR CHOOSING THIS HUB AND I WHOLE HEARTLY WELCOME YOU (NEW BEGINNER) TO THIS TECHIE HUB.
+
+
 #PYTHON SYNTAX:
 print("welcome") #this is the final printing statement. no matter whatever you write final have to be excuted using this print statement.
 if 5>2: # condition end with colon, in java almost each statement ends with semicolon don't be confused.
@@ -6,7 +8,9 @@ if 5>2: # condition end with colon, in java almost each statement ends with semi
     #that's because python uses indentation rather then flower brackets{} to indicate a block of code.AS indentation is used here the print statement comes under the condition.
 else:
     print("nope")#if the if statement isn't true python excutes the else statement.Remeber always end conditions with colon or else python gives error.
-        #EXCERCISE:
+
+
+#EXCERCISE:
 #WHAT IS PYTHON INDENTATION?
 #PYTHON INDENTATION REFERS TO THE SPACES OR GAP AT THE BEGINNING OF A CODE.REMEMBER WITHOUT INDENTATION PYTHON GIVES ERROR. IT IS USED TO INDICATE A BLOCK OF CODE, IF THERE ARE MANY STATEMENTS UNDER THE SAME BLOCK THEN SAME NO.OF SPACES HAVE TO BE THERE AT THE BEGINNING OF EACH LINE.
 #EXAMPLES:
@@ -17,44 +21,42 @@ elif 6%2>0:
 else:
     print("not a number")
        #you can change the condition if according to your wish to execute a want statement. for suppose if u want else statement to be printed change this 6%2 anything that doesn't involve number.   
-Program excercises:
-#Fibannoic series:
-n=0
-m=1
-N=int(input("No.of terms you want:"))
-print(n,",",m,end="")
-i=0
-while i<=N:
-    s=n+m
-    print(",",s,end="")
-    n=m
-    m=s
-    i+=1
-#factors of N
-N=int(input("'\n'Enter a number to find its factors:"))
-i=1
-while i<=N/2:
-    if(N%i==0):
-        print(i,"is a factor of given number")
-    i+=1
-#Digits of a given number:
-N=23456
-r=N%10
-n=N//10
-r2=n%10
-N=n//10
-r3=N%10
-n=N//10
-r4=n%10
-N=n//10
-r5=N%10
-n=N//10
-print(r,r2,r3,r4,r5)
-print(*[r,r2,r3,r4,r5][::-1])
-#whether the given number is prime or not:
-n=int(input("check whether the number the is prime:\t"))
-if n%2==0:
-    print("yes given number is prime",n)
-else:
-    print("oops! not a prime number")
-THE ABOVE are simple basic problem to prepare your mind to understand logic and sharpen its understanding.    
+
+
+PYTHON COMMENTS AND VARIABLES:
+#python comments: 
+print(" comments")#python ignore the statement as soon as it see #, and also string literals for multiline comments.
+print("""I am sama Prasagna Reddy""")
+"""string literals are not considered by the python if they are undefined, only the print statements will be printed, rest all are comments used for readability, explaning the code and testing code."""
+# you can use # even for multiline comments and either way but ensure that will be not excuted by the python and just avoided.
+
+
+#1.creating variables:(created as soon as a value is assigned to it)
+a=5 #variable is created as value is assigned to it.
+a #cannot leave a like that undefined bcoz python gives an error.
+#now it's not a mandate to declare a value specifying its data type bcoz python already declares the data type to a value behind the screen, hiding the complexity or unnecassary details called abstraction: example
+b=5 #int data type pre-stored  or automatically declared by python
+c=2005 #again int data type
+d="prasagna" #this is string data type.
+print(b,c,d)
+# but if you want to particularly specify the data type you can use cating method:example
+e=int(5.0) #specifying the int data type, hence the output will be only 5
+f=str(5) #output will be only string part "5.0"
+g=float(5) #output will be 5.0 though five bcoz you have declared a variable using float.
+print(e,f,g)
+#now after doing all of these few doesn't know the data type of variable for that no problem you can even find the data type of variable using type() function
+#example:
+h=20
+i="prasagna"
+print(type(h)) 
+print(type(i))
+# single or double both give same output if you assign a string value to a variable example:
+j="pras"
+k='pras'
+print(j,k) #both give same output hence you can use either of it.
+#variable names in python are case-sensitive meaning, "Age" is different from "age" example:
+Age=15
+age=16
+print(Age, age) #both are not same, hence no error and yes we are 5% on our wayy.
+
+
