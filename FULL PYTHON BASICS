@@ -59,4 +59,31 @@ Age=15
 age=16
 print(Age, age) #both are not same, hence no error and yes we are 5% on our wayy.
 
+PYTHON STRINGS
+1.print('Hey you"re awesome')
+print("it's mine")
+# you can assign multiple strings to one variable by using triple quotes example:
+print(" hey hello there,this is sama prasagna reddy of grade 11th IBDP, studying in bengaluru")
+# strings are arrays in python, there is no character in python even one characteri is simply a string of length 1 in python.
+# looping through strings:
+for s in "prasagna":# here s is a variable which continously changes as it goes through each letter in a string as long as it sees a letter or character.
+    print(s,end="")
+    # to find the length of a string we use len() function.
+s="prasagna"
+print(len(s))
+
+#checking whether string is present or not and using if statements:
+a="I love playing sports"
+print("playing" in a ) # this returns true or false
+print("like" not in a)# this returns true bcox there is no like in a
+a="I love studying"
+if "love" in a:
+    print("yes love is present")# checking if string is there are not using if and then printing.
+else:
+        print("NO love is not present")
+if "like" not in a:
+    print("Yes like is not there")
+else:
+    print(" like is present")
+2. SLICING STRINGS
 
