@@ -85,5 +85,42 @@ if "like" not in a:
     print("Yes like is not there")
 else:
     print(" like is present")
+
 2. SLICING STRINGS
+# to return a range of characters python uses slicing syntax, it can be negative or postive silicing and it's done usisng the index number of the character in a strings there will be 4 example of differnt kinds below:
+x="it's gonna be okay"
+print(x[2:5]) # only char index 2 to till 4 remeber 5 wont be included, not only here anywhere if its written at the 2nd place it won't be involved.
+Y="everybody needs a bad day"
+print(Y[:10]) # starts from first and 10th char not included.
+z="what are you waiting for"
+print(z[2:]) # in this printed till last so, from number given to end of the string.
+AB="she said she is from an iceland"
+print(AB[-5:-2]) # again -5 included and -2 is not.
+
+3.MODIFY STRINGS:
+#python has bulit in methods to use on strings for example upper, lower, replace, strip, and split
+c=" I am in class"
+print(c.upper()) #string to upper string
+d=c
+print(d.lower()) # string to lower string 
+e=d
+print(e.replace("i","n")) # replacing characters
+print(e.strip()) # removes whitespace from beginning or end.
+print(e.split()) #splits each string.
+
+4. CONCATENATE STRINGS:
+# this means combining strings.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
